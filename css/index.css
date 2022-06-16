@@ -80,6 +80,7 @@
 .intro-bg {
   background-color: #000000;
   color: #ffffff;
+  box-shadow: inset 0px -120px #ffffff;
 }
 
 .intro {
@@ -92,11 +93,12 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 .intro-conteudo {
   align-self: end;
-  padding-bottom: 120px;
+  padding-bottom: 200px;
 }
 
 .intro h1 {
@@ -131,4 +133,61 @@
 
 .intro a:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.intro img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.fuscas-lista {
+  padding-top: 60px;
+}
+
+.fuscas-lista h2 {
+  font-size: 3rem;
+  padding-left: 40px;
+}
+
+.fuscas-lista h2 span {
+  color: #ffbb00;
+}
+
+.fuscas-lista ul {
+  display: flex;
+  gap: 40px;
+}
+
+.fuscas-lista img {
+  margin-bottom: 16px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.fuscas-lista h3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1.8rem;
+}
+
+.fuscas-lista h3::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 12px;
+  background: #ffbb00;
+  margin-top: 4px;
+  margin-right: 8px;
+  transition: width 0.2s;
+}
+
+.fuscas-lista a:hover h3::before {
+  width: 24px;
+}
+
+.fuscas-lista li span {
+  padding-left: 20px;
+  color: #595959;
 }
