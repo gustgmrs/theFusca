@@ -1,3 +1,4 @@
+/* HEADER */
 .header-bg {
   background-color: #000000;
 }
@@ -73,4 +74,61 @@
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+
+/* INTRODUÇÃO */
+.intro-bg {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-conteudo {
+  align-self: end;
+  padding-bottom: 120px;
+}
+
+.intro h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height-step: 1.125;
+  color: #ffffff;
+}
+
+.intro h1 span {
+  color: #ffbb00;
+}
+
+.intro p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #b2b2b2;
+  line-height: 1.5;
+}
+
+.intro a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+.intro a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
