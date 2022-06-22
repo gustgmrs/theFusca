@@ -1,2 +1,12 @@
-@import url(global.css);
-@import url(index.css);
+/* Utilitários */
+@import url(utilidades/tipografia.css);
+@import url(utilidades/cores.css);
+@import url(utilidades/componentes.css);
+
+/* Globais */
+@import url(global/global.css);
+@import url(global/header.css);
+
+/* Home */
+@import url(home/intro.css);
+@import url(home/fuscas.css);
