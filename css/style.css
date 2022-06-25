@@ -9,4 +9,9 @@
 
 /* Home */
 @import url(home/intro.css);
-@import url(home/fuscas.css);
+@import url(home/mec.css);
+@import url(home/parceiros.css);
+@import url(home/depoimentos.css);
+
+/* Fuscas */
+@import url(fuscas/fuscas-lista.css);
