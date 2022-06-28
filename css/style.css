@@ -6,12 +6,14 @@
 /* Globais */
 @import url(global/global.css);
 @import url(global/header.css);
+@import url(global/footer.css);
 
 /* Home */
 @import url(home/intro.css);
 @import url(home/mec.css);
 @import url(home/parceiros.css);
 @import url(home/depoimentos.css);
+@import url(home/seguro.css);
 
 /* Fuscas */
 @import url(fuscas/fuscas-lista.css);
