@@ -21,3 +21,7 @@
 /* Fuscas */
 @import url(fuscas/fuscas-lista.css);
 @import url(fuscas/fuscas.css);
+
+/* Seguros */
+@import url(seguros/vantagens.css);
+@import url(seguros/perguntas.css);
