@@ -25,3 +25,7 @@
 /* Seguros */
 @import url(seguros/vantagens.css);
 @import url(seguros/perguntas.css);
+
+/* Fusca Interno */
+@import url(fusca/fusca.css);
+@import url(fusca/seguros.css);
