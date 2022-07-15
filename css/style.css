@@ -2,6 +2,7 @@
 @import url(utilidades/tipografia.css);
 @import url(utilidades/cores.css);
 @import url(utilidades/componentes.css);
+@import url(utilidades/form.css);
 
 /* Globais */
 @import url(global/global.css);
@@ -29,3 +30,10 @@
 /* Fusca Interno */
 @import url(fusca/fusca.css);
 @import url(fusca/seguros.css);
+
+/* Contato */
+@import url(contato/contato.css);
+@import url(contato/lojas.css);
+
+/* Orçamento */
+@import url(orçamento/orcamento.css);
