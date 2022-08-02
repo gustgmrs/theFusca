@@ -123,7 +123,7 @@
 }
 
 #thefusca:checked ~ #orcamento-thefusca,
-#seguro-orc:checked ~ #orcamento-seguro {
+#seguro:checked ~ #orcamento-seguro {
   display: grid;
   gap: 20px;
 }
